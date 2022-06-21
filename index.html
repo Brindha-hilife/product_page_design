@@ -5,8 +5,325 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page Design</title>
+    <!-- css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
 </head>
 <body>
-    
+    <!-- <div class="container content"> -->
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="row rowscard">
+                        <div class="card highlight" >
+                            <img src="assets/images/wind.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title titleone">Easy Book <br> Best Dates to Fly</h5>
+                                <p class="card-text textone">We can easly help you to find the best Flight experience</p>
+                                <a href="#" class="btn btn-primary">Continue with e-mail</a>
+                            </div>
+                        </div>
+                        <div class="card highlight">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <button type="button" class="btn btn-light"><i class="fas fa-long-arrow-alt-left"></i></button>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p class="text2">Choose a Seat</p>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button type="button" class="btn btn-light"><i class="fas fa-ellipsis-h"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                
+                            <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="assets/images/seat-light.jpg" alt="Avatar" class="avatar">
+                            
+                                        <p class="text">Seats Occupied</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/images/seat-dark.jpg" alt="Avatar" class="avatar">
+                                        
+                                        <p class="text">Seats Available</p>
+                                    </div>
+                                    <img src="assets/images/seat.png" class="card-img-top" alt="..." height="250" width="500">
+                                </div>
+                            
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row rowscard">
+                        <div class="card highlight" >
+                            <img src="assets/images/wind.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title titleone">Easy Book <br> Best Dates to Fly</h5>
+                            <p class="card-text textone">We can easly help you to find the best Flight experience</p>
+                            <a href="#" class="btn btn-primary">Continue with e-mail</a>
+                            </div>
+                        </div>
+                        <div class="card highlight">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="text2">Let's Book Your <br> Flight <i class="fas fa-plane-departure"></i></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/images/sun.jpg" alt="Avatar" class="avatar">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body tabcard"> 
+                                <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs"  >    
+                                    <li class="nav-item">
+                                        <a class="nav-link "  aria-current="true" data-bs-toggle="tab" href="#dhcp">One-Way</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" data-bs-toggle="tab" href="#static">Round-Trip</a>
+                                    </li>
+                                </ul>
+                                <form class="card-body tab-content">
+                                    <div class="tab-pane " id="dhcp">
+                                    </div>
+                                    <div class="tab-pane" id="static" >
+                                        <ul class="list-group list-group-flush">
+                                            <div class="row">
+                                                <li class="list-group-item">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" ><i class="fas fa-plane-departure"></i></span>
+                                                        <label class="form-control">Chennai (CCX)</label>
+                                                    </div>   
+                                                </li>
+                                            </div>
+                                            <div class="row">
+                                                <li class="list-group-item"> 
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" ><i class="fas fa-plane-arrival"></i></span>
+                                                        <label class="form-control">Trichy (DPS)</label>
+        
+                                                    </div> 
+                                                </li>
+                                            </div>
+                                        </ul>
+                                        <div class="row">
+                                            <label class="para">Date of Depature</label>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <input type="date" class="form-control datepic">  
+                                                </li>
+                                            </ul>
+                                        </div> 
+                                        <div class="card-footer"> 
+                                            <button class="btn btn-primary" type="submit" >Search Flight</button>                                          
+                                        </div>
+                                    </div>  
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="row rowscard">
+                        <div class="card highlight">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <button type="button" class="btn btn-light"><i class="fas fa-long-arrow-alt-left"></i></button>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p class="text2">Choose a Seat</p>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button type="button" class="btn btn-light"><i class="fas fa-ellipsis-h"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                
+                            <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="assets/images/seat-light.jpg" alt="Avatar" class="avatar">
+                            
+                                        <p class="text">Seats Occupied</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/images/seat-dark.jpg" alt="Avatar" class="avatar">
+                                        
+                                        <p class="text">Seats Available</p>
+                                    </div>
+                                    <img src="assets/images/seat.png" class="card-img-top" alt="..." height="250" width="500">
+                                </div>
+                            
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="card highlight" >
+                            <img src="assets/images/wind.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title titleone">Easy Book <br> Best Dates to Fly</h5>
+                            <p class="card-text textone">We can easly help you to find the best Flight experience</p>
+                            <a href="#" class="btn btn-primary">Continue with e-mail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="row rowscard">
+                        <div class="card highlight">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="text2">Let's Book Your <br> Flight <i class="fas fa-plane-departure"></i></p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="assets/images/sun.jpg" alt="Avatar" class="avatar">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="container-two">
+                                    <ul class="list-group list-group-flush">
+                                        <div class="row mb-12">
+                                            <li class="list-group-item">
+                                                <div class="input-group">
+                                                    <span class="input-group-text" ><i class="fas fa-plane-departure"></i></span>
+                                                    <label class="form-control">Chennai (CGX)</label>
+                                                </div>   
+                                            </li>
+                                        </div>
+                                        <div class="row mb-12">
+                                            <li class="list-group-item">
+                                                <div class="input-group">
+                                                    <span class="input-group-text" ><i class="fas fa-plane-arrival"></i></span>
+                                                    <label class="form-control">Trichy (DPS)</label>
+
+                                                </div> 
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label class="para">Depature</label>
+                                            <input type="date" class="form-control datepic"> 
+                                        </div> 
+                                        
+                                        <div class="col-md-6">
+                                            <label class="para">Return</label>
+                                            <input type="date" class="form-control datepic"> 
+                                        </div> 
+                                    </div> 
+                                    
+                                    <div class="card-footer">
+                                    
+                                            <button class="btn btn-primary" type="submit" >Search Flight</button>
+                            
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-md-3"><i class="fas fa-home font"></i></div>
+                                    <div class="col-md-3"><i class="fas fa-list-alt font"></i></div>
+                                    <div class="col-md-3"><i class="fas fa-bell font"></i></div>
+                                    <div class="col-md-3"><i class="fas fa-user font"></i>   </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="card highlight">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <button type="button" class="btn btn-light"><i class="fas fa-long-arrow-alt-left"></i></button>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p class="text2">Boarding Pass</p>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <button type="button" class="btn btn-light"><i class="fas fa-ellipsis-h"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body tabcardone">
+                                <div class="container-one">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="assets/images/logo (4).png" alt="Avatar" class="avatar">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <label class="para">Mon 20 Jun 2022</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label class="para">12.30</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="para">16.00</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label class="text1">CGX</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="assets/images/img.png" alt="" width="50" >
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="text1">DPS</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label class="text1">01</label>
+                                            <p class="text">Temprature</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <i class="fas fa-arrows-v"></i>
+                                            <p class="text">Center</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="text1">0A215</label>
+                                            <p class="text">Height</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="assets/images/girl.jpg" alt="Avatar" class="avatar">
+                                        </div>
+                                        <div class="col-md-5">
+                                            <label class="text1">Lorem</label>
+                                            <p class="text">Lorem</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="container-three">
+                                                <label class="text1">A3</label>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <div class="row">
+                                        <img src="assets/images/bar.jpg" alt="" width="400">
+                                    </div>  
+                                </div>
+                                <button class="btn btn-primary" type="submit">Continue with e-mail</button>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
